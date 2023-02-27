@@ -29,7 +29,7 @@ PROMPT: `python prompt.py`
 
 Other baselines: implemented by [rome](https://github.com/kmeng01/rome)
 
-#### Models for IKE
+### Models for IKE
 
 You can evaluate IKE based on different LLMs by specifying the model name of LLMs.
 
@@ -37,4 +37,7 @@ You can evaluate IKE based on different LLMs by specifying the model name of LLM
 python icl.py --model_name [model name]
 ```
 The model name can be `['gpt2-xl', 'EleutherAI/gpt-neo-1.3B', 'EleutherAI/gpt-j-6B', 'EleutherAI/gpt-neox-20b']`
+
+### Contrastive Knowledge Assessment
+
 
