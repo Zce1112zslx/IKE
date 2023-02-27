@@ -19,17 +19,17 @@ transformers==4.24.0
 We conduct experiments on `CounterFact` dataset. You can download the dataset [here](https://rome.baulab.info/data/dsets/counterfact.json).
 run code `clean_paraphrase.py` to remove unrelated prefixes in paraphrase prompts in `CounterFact` and keep all prompts in the same format.
 
-## Demonstration Organization
+### Demonstration Organization
 We select first 2,000 records as test set. For each record, we use sentence transformers to retrieve 32 nearest neighbours from remaining records as in-context demonstrations. The indices of nearest neighbours are stored in `corpus_idx.txt`. You can also run code `encode_facts.py` and `semantic_search.py` to build `corpus_idx.txt`. 
 
-## Main Experiments
+### Main Experiments
 IKE: `python icl.py`
 
 PROMPT: `python prompt.py`
 
 Other baselines: implemented by [rome](https://github.com/kmeng01/rome)
 
-## Models for IKE
+#### Models for IKE
 
 You can evaluate IKE based on different LLMs by specifying the model name of LLMs.
 
