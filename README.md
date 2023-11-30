@@ -1,5 +1,5 @@
 # IKE
-Source code for "Can We Edit Factual Knowledge by In-Context Learning?"
+Source code for "Can We Edit Factual Knowledge by In-Context Learning?" at EMNLP 2023 main conference.
 ## Overview
 ## Requirements
 ```
